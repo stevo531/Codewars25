@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/559f80b87fa8512e3e0000f5/train/javascript target="_blank">Are arrow functions odd?</a></h2><h3>8 kyu</h3><p>Time to test your basic knowledge in functions! Return the odds from a list:</p><pre><code>[1, 2, 3, 4, 5]  --&gt;  [1, 3, 5][2, 4, 6]        --&gt;  []</code></pre>
