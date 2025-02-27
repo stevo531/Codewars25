@@ -1,6 +1,7 @@
+ 
 function getMax1()
 {
-  var max = 
+  const max = 
   {
    name: 'Max Headroom'
   }
