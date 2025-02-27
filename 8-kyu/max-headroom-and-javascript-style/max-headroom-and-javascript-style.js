@@ -1,4 +1,3 @@
- 
 function getMax1()
 {
   var max = 
