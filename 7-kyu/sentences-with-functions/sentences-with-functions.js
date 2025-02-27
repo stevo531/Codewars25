@@ -1,7 +1,8 @@
+ 
 function Adam() {
-  return 'Adam'
+  return `Adam ${tohave}`
 }
-function has() {
+const tohave =  (has) => {
   return 'has'
 }
 function a() {
