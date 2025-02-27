@@ -2,7 +2,7 @@
 function Adam() {
   return `Adam ${tohave}`
 }
-const tohave =  (has) => {
+const tohave =  has => {
   return 'has'
 }
 function a() {
