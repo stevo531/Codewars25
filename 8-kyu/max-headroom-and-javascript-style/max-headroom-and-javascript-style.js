@@ -1,3 +1,4 @@
+ 
 function getMax1()
 {
   var max = 
@@ -9,9 +10,9 @@ function getMax1()
 ​
 function getMax2()
 {
-  return
-  {
+  return max;
+  /*{
     name: 'Max Headroom'
-  }
+  }*/
 }
 ​
