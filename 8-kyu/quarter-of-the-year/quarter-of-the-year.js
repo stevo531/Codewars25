@@ -1,4 +1,3 @@
- 
 const quarterOf = (month) => {
  if(month <= 3 ){
    return "first quarter"
