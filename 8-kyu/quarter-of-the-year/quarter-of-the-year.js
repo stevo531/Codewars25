@@ -1,6 +1,6 @@
 const quarterOf = (month) => {
  if(month <= 3 ){
-   return "first quarter"
+   return 1
  }
   else if(month >= 4 && month <=6){
     return 'second quarter'
