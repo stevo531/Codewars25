@@ -3,9 +3,9 @@ const quarterOf = (month) => {
    return 1
  }
   else if(month >= 4 && month <=6){
-    return 'second quarter'
+    return 2
     }
   else if(month >=7 && month <=9){
-    return 'third quarter'}// Your code here
-  return 'fourth quarter'
+    return 3}// Your code here
+  return 4
 }
