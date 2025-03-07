@@ -1,4 +1,3 @@
- 
 function humanReadable (seconds) {
   let hours = Math.floor(seconds/3600)
   let minutes = Math.floor((((seconds % 31536000) % 86400) % 3600) /60)
@@ -12,7 +11,7 @@ function humanReadable (seconds) {
     
   }
   if(secs < 10 ){
-    secs = '0'
+    secs = '0' + secs;
   }
   return hours +':'+ minutes+ ':'+ secs;
 }
