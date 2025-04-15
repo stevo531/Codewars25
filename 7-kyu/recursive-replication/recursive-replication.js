@@ -1,9 +1,11 @@
 function replicate(times, number) {
   let arr = [];
-if(times >= 0){
-  arr.push(number);
-  arr.splice(1,0,number)
+while(times > 0){
+  arr.splice(arr.length,0,number);
+  times--
   return arr
+​
+}
 }
 else {
   return '[]'
