@@ -1,4 +1,3 @@
- 
 function replicate(times, number) {
   let arr = [number]
 if(times > 0){
