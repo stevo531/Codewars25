@@ -1,13 +1,6 @@
- 
 function replicate(times, number) {
-  let arr = [];
-while(times > 0){
-  arr.splice(arr.length,0,number);
-  times--
-  return arr
-​
+  let arr = [number]
+if(times > 0){
+  return arr.concat(replicate(times-1, number))
 }
-}
- return '[]'
-  // your solution here
 }
