@@ -7,7 +7,6 @@ while(times > 0){
 ​
 }
 }
-else {
-  return '[]'
-}  // your solution here
+ return '[]'
+  // your solution here
 }
