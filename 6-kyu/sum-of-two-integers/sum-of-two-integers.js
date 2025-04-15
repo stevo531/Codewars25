@@ -1,7 +1,4 @@
-function add(x, y)
-{
-for(i=1; i<=y; i++){
-  x++
-}
-  return x//    return 0 // Do your magic!
+ 
+function add(x,y) {
+return Array(x).fill("").concat(Array(y).fill("")).length
 }
