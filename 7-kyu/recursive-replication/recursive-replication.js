@@ -1,3 +1,4 @@
+ 
 function replicate(times, number) {
   let arr = [];
 while(times > 0){
