@@ -6,6 +6,6 @@ function alphabetPosition(text) {
    let indexed = alpha.indexOf(char)
    return indexed != -1 ? indexed + 1 : '';
  })
- return mapped.filter(boolean).join(' ')
+ return mapped.filter(Boolean).join(' ')
  }
 ​
