@@ -1,4 +1,3 @@
- 
 function alphabetPosition(text) {
   let splitText = text.replaceAll(' ', '').toLowerCase().split('')
   let alpha = 'abcdefghijklmnopqrstuvwxyz';
