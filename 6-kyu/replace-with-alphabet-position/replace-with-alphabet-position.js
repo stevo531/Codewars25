@@ -1,4 +1,3 @@
- 
 function alphabetPosition(text) {
   let splitText = text.replaceAll(' ', '').toLowerCase().split('')
   let alpha = 'abcdefghijklmnopqrstuvwxyz';
@@ -7,4 +6,4 @@ function alphabetPosition(text) {
    return indexed != -1 ? indexed + 1 : '';
  })
  }
-}
+​
