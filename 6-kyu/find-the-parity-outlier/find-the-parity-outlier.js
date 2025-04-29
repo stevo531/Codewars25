@@ -1,3 +1,4 @@
+ 
 function findOutlier(integers){
  let passEven = []
  let passOdd = []
@@ -11,5 +12,5 @@ function findOutlier(integers){
       passOdd.push(num);
     }
   }
-  return passEven.length === 1 ? passEven : passOdd
+  return passEven.length === 1 ?(passEven):(passOdd)
 }
