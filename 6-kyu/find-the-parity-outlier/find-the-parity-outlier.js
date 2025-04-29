@@ -11,5 +11,5 @@ function findOutlier(integers){
       passOdd += num;
     }
   }
-  return passEven.length > passOdd.length ? passOdd : passEven
+  return passEven.length > passOdd.length ? BigInt(passEven) : BigInt(passOdd);
 }
