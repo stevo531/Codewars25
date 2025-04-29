@@ -1,15 +1,15 @@
 function findOutlier(integers){
- let passEven = []
- let passOdd = []
+ let passEven = ''
+ let passOdd = ''
   //your code here
   for(let i=0; i<integers.length; i++){
     let num = integers[i];
     if(num % 2 === 0){
-      passEven.push(num);
+      passEven += num;
     }
     else {
-      passOdd.push(num);
+      passOdd += num;
     }
   }
-  return passEven.length === 1 ? (...passOdd) : (...passEven)
+  return passEven.length > passOdd.length ? passOdd : passEven
 }
