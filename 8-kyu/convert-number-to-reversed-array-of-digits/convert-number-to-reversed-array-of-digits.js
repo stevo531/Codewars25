@@ -1,5 +1,6 @@
  
 function digitize(n) {
-let nSplit = n.split('').reverse().join(',')
-  return nSplit//code here
+let arr = []
+arr.push(n)
+  let arrSplit = arr.split('').reverse().join(',')
 }
