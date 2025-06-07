@@ -4,4 +4,4 @@ function numberToString(num) {
   return numString;
  // Return a string of the number here!
 }
-console.log(typeOf(numString(100)))
+console.log(numString.typeOf())
