@@ -1,3 +1,4 @@
+ 
 const rgb = (r, g, b) => {
 ​
  
@@ -9,7 +10,7 @@ return Math.max(0, Math.min(255, value))
   b = valueRange(b)
 const hexConversion = value => {
   let hex = ''
-  hex = value.toString(16)
+  hex = value.toString(16).toUpperCase()
 if(hex.length !== 2){
   hex = '0' + hex
  // hex += value.toString(16)
