@@ -2,8 +2,8 @@ const rgb = (r, g, b) => {
 ​
  
 const valueRange = value => {
-  value < 0 ? 0 : 0
-  value > 255 ? 255: 255
+ return  value < 0 ? 0 : 0
+ return  value > 255 ? 255: 255
 }
   r = valueRange(r)
   g = valueRange(g)
