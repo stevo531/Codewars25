@@ -1,4 +1,3 @@
- 
 const rgb = (r, g, b) => {
 ​
  
@@ -18,8 +17,8 @@ return hex
 }
 }
  let hex = ''
-  hex += hexConversion(r)
-  hex += hexConversion(g)
-  hex += hexConversion(b)
-  return hex
+//   hex += hexConversion(r)
+//   hex += hexConversion(g)
+//   hex += hexConversion(b)
+  return hexConversion(r) + hexConversion(g) + hexConversion(b)
 }
