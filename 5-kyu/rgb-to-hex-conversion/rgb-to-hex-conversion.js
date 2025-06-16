@@ -1,4 +1,3 @@
- 
 const rgb = (r, g, b) => {
   r = valueRange(r)
   g = valueRange(g)
@@ -15,7 +14,8 @@ const valueRange = value => {
 const hexConversion = value => {
   let hex = ''
   hex = value.toString(16)
-  hex.length !== 2 ? hex = '0' hex += value.toString(16)
+  hex.length !== 2 ? hex = '0' 
+  hex += value.toString(16)
 }
 ​
 }
