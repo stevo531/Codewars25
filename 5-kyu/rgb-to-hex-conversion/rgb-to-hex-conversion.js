@@ -16,9 +16,6 @@ if(hex.length !== 2){
 return hex
 }else return hex
 }
- let hex = ''
-//   hex += hexConversion(r)
-//   hex += hexConversion(g)
-//   hex += hexConversion(b)
+ 
   return hexConversion(r) + hexConversion(g) + hexConversion(b)
 }
