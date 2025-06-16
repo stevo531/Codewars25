@@ -12,7 +12,7 @@ const valueRange = value => {
   value < 0 ? 0 : 0
   value > 255 ? 255: 255
 }
-const hexConversion => value => {
+const hexConversion = value => {
   let hex = ''
   hex = value.toString(16)
   hex.length !== 2 ? hex = '0'
