@@ -15,7 +15,7 @@ const valueRange = value => {
 const hexConversion = value => {
   let hex = ''
   hex = value.toString(16)
-if(hex.length +== 2){
+if(hex.length !== 2){
   hex = '0'
   hex += value.toString(16)}
 }
