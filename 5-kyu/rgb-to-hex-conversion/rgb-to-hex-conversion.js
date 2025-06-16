@@ -1,8 +1,9 @@
+ 
 const rgb = (r, g, b) => {
 ​
  
 const valueRange = value => {
-Math.max(0, Math.min(255, value))
+return Math.max(0, Math.min(255, value))
 }
   r = valueRange(r)
   g = valueRange(g)
