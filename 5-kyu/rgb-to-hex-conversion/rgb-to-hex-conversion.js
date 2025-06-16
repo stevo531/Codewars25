@@ -1,3 +1,4 @@
+ 
 const rgb = (r, g, b) => {
 ​
  
@@ -13,7 +14,8 @@ const hexConversion = value => {
   hex = value.toString(16)
 if(hex.length !== 2){
   hex = '0'
-  hex += value.toString(16)}
+  hex += value.toString(16)
+return hex}
 }
  let hex = ''
   hex += hexConversion(r)
