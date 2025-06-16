@@ -14,7 +14,7 @@ if(hex.length !== 2){
   hex = '0' + hex
  // hex += value.toString(16)
 return hex
-}
+}else return hex
 }
  let hex = ''
 //   hex += hexConversion(r)
