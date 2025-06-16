@@ -11,8 +11,8 @@ const hexConversion = value => {
   let hex = ''
   hex = value.toString(16)
 if(hex.length !== 2){
-  hex = '0'
-  hex += value.toString(16)
+  hex = '0' + hex
+ // hex += value.toString(16)
 return hex
 }
 }
