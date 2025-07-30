@@ -1,3 +1,4 @@
+ 
 function domainName(url) {
   let pushed = "";
   for (let i = 0; i < url.length; i++) {
