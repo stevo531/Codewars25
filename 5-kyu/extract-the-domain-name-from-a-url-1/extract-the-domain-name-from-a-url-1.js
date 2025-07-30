@@ -1,12 +1,6 @@
 function domainName(url) {
-let splitted = url.split('.')
-let name = ''
-for(let i=0; i<splitted.length; i++){
-  if(splitted[i] === 'www'){
-    name+= splitted[i+1]
-  } else if(splitted[i] === 'com') name+=splitted[i-1]
-}
-  return name
-}
+url = url.replace('http://', '').replace('https://', '').replace('www', '')
+  let split = url.split('.')
+  return split[0]
 ​
 ​
