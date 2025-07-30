@@ -4,7 +4,7 @@ function pigIt(str){
    string+=str[i]
    if(str[i] === ' '){
      continue
-     string= string.split('').reverse(string.charAt(0).join(''))
+     string= string.split('').reverse(string.charAt(0)).join(''))
    }
  }
   return string
