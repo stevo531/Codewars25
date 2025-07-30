@@ -6,6 +6,6 @@ function pigIt(str){
      continue
      string= string.split('').reverse(string.charAt(0).join(''))
    }
- }
+ 
   return string
 }
