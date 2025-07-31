@@ -3,7 +3,7 @@ str=str.split(' ')
   let string=''
   for(let i=0; i<str.length;i++){
     string=str[i].slice(1) + str[i].charAt(0) + 'ay'
-    break
+    
   }
   
  return string 
