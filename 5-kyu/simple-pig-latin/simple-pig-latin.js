@@ -11,3 +11,5 @@ str=str.split(' ')
 //     }
 //   return str
 }
+console.log(pigIt('Pig latin is cool'))
+console.log(pigIt('This is my string'))
