@@ -1,4 +1,3 @@
- 
 function pigIt(str){
 str=str.split(' ')
   let string=''
