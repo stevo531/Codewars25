@@ -2,8 +2,7 @@ function pigIt(str){
 str=str.split(' ')
   let string=''
   for(let i=0; i<str.length;i++){
-    string+=str.slice(1) + str.charAt(0)
-    break
+    string+=str.slice(1) + str[0]    
   }
   
  return string 
