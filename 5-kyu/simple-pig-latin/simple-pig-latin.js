@@ -7,6 +7,7 @@ str=str.split(' ')
    ? string+=`${str[i]}`
    : string+=str[i].slice(1) + str[i].charAt(0) + 'ay' + ' '  
   if(marks.includes(str[i])) string+=str[i]
+    if(i !== str.length-1) str+= ' '
     }
   return string
 ​
