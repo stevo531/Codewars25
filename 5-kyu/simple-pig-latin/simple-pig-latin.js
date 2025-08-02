@@ -10,7 +10,7 @@ str=str.split(' ')
     if(str[i] === match) string+=str[i]
     //if(regex.includes(str[i])) str+=str[i]
     }
-  return string.trimEnd()
+  return string.trim()
 ​
 }
 console.log(pigIt('Pig latin is cool'))
