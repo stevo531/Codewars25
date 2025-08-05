@@ -1,4 +1,3 @@
- 
 function pigIt(str){
 str=str.split(' ')
   let marks = ['.','!','?',',']
@@ -6,6 +5,6 @@ str=str.split(' ')
  marks.includes(word)
   ? word
   : word.slice(1) + word[0] + 'ay')
- return final.join(',')
+ return final.join('')
 }
 ​
