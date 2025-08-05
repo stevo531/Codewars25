@@ -1,4 +1,3 @@
- 
 const zeros = n => {
   let zeros = 0
 ​
