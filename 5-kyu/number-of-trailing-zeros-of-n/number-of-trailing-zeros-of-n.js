@@ -1,15 +1,11 @@
  
 const zeros = n => {
-  let nums =1
-  let count = 0
-  for(let i=1; i<12 ; i++){
-    nums*=i
-    nums=nums.toString().split('')
-    for(let i=0; i<nums.length; i++){
-      nums[i] === '0'
-      ? count++
-      : count
-    }
+  let zeros = 0
+​
+  while (n > 0) {
+    n = Math.floor(n / 5)
+    zeros += n
   }
-  return count
+​
+  return zeros
 }
