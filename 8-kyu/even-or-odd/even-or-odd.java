@@ -1,10 +1,9 @@
- 
 public class Kata {
     public static String evenOrOdd(int number) {
-      if(number % 2 === 0){
+      if(number % 2 == 0){
         return "Even"; // Place code here;
     }
-    else if(number % 2 !== 0){
+    else if(number % 2 != 0){
       return "Odd"
     }
       }
