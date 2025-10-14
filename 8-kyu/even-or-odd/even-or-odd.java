@@ -1,3 +1,4 @@
+ 
 public class Kata {
     public static String evenOrOdd(int number) {
       if(number % 2 == 0){
@@ -6,5 +7,5 @@ public class Kata {
     else if(number % 2 != 0){
       return "Odd";
     }
-      }
+      };
 }
