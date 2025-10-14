@@ -6,5 +6,8 @@ public class Kata {
     else if(number % 2 != 0){
       return "Odd";
     }
+      else {
+        return "Not a number";
+      }
       }
 }
