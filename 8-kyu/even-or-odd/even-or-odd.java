@@ -4,7 +4,7 @@ public class Kata {
         return "Even"; // Place code here;
     }
     else if(number % 2 != 0){
-      return "Odd"
+      return "Odd";
     }
       }
 }
