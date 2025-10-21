@@ -9,5 +9,5 @@ for(int i=0; i<arr1.length; i++){
     }
     return total;
   }
-System.out.println(arrayPlusArray(new int[]{1,2,3}, new int[]{4,5,6}));
+arrayPlusArray(new int[]{1,2,3}, new int[]{4,5,6}));
 }
