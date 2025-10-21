@@ -1,3 +1,4 @@
+ 
 public class Sum {
 ​
   public static int arrayPlusArray(int[] arr1, int[] arr2) {
@@ -10,5 +11,5 @@ for(int i=0; i<arr1.length; i++){
     }
     return total;
   }
-System.out.println(arrayPlusArray(new int[]{1,2,3}, new int[]{4,5,6}));
+​
 }
