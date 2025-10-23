@@ -5,6 +5,6 @@ class sorter {
 ​
   public static ArrayList<String> sort(ArrayList<String> textbooks) {
    Collections.sort(textbooks);
-    return textbooks.toLowerCase();
+    return textbooks;
   }
 }
