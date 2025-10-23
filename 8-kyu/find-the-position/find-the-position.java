@@ -1,3 +1,4 @@
+ 
 import java.util.Arrays;
 public class Kata
 {
@@ -10,7 +11,7 @@ public class Kata
       return "Position of alphabet: "+ i+1;
     }
     else {
-      return invalid
+      return invalid;
     }
   }
   }
