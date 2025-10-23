@@ -11,6 +11,6 @@ public class Kata
     }
 ​
       }
-    return invalid;
+    return "invalid";
   }
 }
