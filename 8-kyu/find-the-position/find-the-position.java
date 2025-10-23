@@ -10,9 +10,9 @@ public class Kata
     if(alpha[i].equals(alphabet)){
       return "Position of alphabet: "+ i+1;
     }
-    else {
+​
       return invalid;
-    }
+    
   }
   }
 }
