@@ -1,10 +1,10 @@
 public class Kata {
   public static void _if(Boolean bool, Runnable func1, Runnable func2) {
     // ...
-    public static func1(){
+    public static void func1(){
       System.out.println("true");
     }
-    public static  func2() {
+    public static void func2() {
       System.out.println("false");
     
     }
