@@ -1,7 +1,7 @@
- 
 public class Kata {
   public static boolean solution(String str, String ending) {
-    if(str.split(ending)){
+    String[] splitString = str.split(ending);
+    if(splitString){
     return true;
   }
     else {
